@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+logs/*.log
+models/*.npz
+models/*.pkl
+models/*.joblib
+data/*.csv
+data/*.npz
+data/*.pkl
+data/*.json
+outputs/*.csv
+outputs/plots/*.png
+
+# Ignore frontend dashboard
+dashboard/
