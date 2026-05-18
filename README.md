@@ -98,9 +98,9 @@ $$\lambda_{ij} = \frac{-\sigma}{1 + e^{\sigma(\hat{s}_i - \hat{s}_j)}} \cdot |\D
 
 where $|\Delta \text{NDCG}_{ij}|$ is the absolute change in NDCG from swapping items $i$ and $j$. LightGBM fits a gradient-boosted tree ensemble to these $\lambda$ values.
 
-**Key feature: churn signal boost:**
+**Key feature churn signal boost:**
 
-$$b_u^{(i)} = \text{churn\_prob}_u \times \text{churn\_reduction\_score}_i$$
+$$ b_u^{(i)} = \text{churn\_prob}_u \times \text{churn\_reduction\_score}_i $$
 
 This biases recommendations toward features that are empirically "sticky" for at-risk customers.
 
