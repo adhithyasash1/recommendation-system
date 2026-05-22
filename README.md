@@ -1,4 +1,4 @@
-# SaaS Feature Recommendation System
+# Recommendation System
 
 A two-stage recommender for SaaS feature adoption built on synthetic B2B usage data.
 
